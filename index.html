@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daud Maqsood · Business Operations, Client Service, Marketing</title>
+<meta name="description" content="Portfolio of Daud Maqsood. Business operations, client service and marketing, run on systems built from zero. Jubail, Saudi Arabia.">
+<meta property="og:title" content="Daud Maqsood · Business Operations, Client Service, Marketing">
+<meta property="og:description" content="Systems, films and results. Jubail, Saudi Arabia.">
+<meta property="og:image" content="https://daudmaqsoodofficial-creator.github.io/portfolio/assets/img/film-register.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0A0A0B;--ink2:#121214;--ink3:#1B1B1F;--paper:#FFFFFF;--soft:#F4F3F0;--gold:#A8864A;--gold2:#D2B579;--grey:#8C8C92;
+  --text:#111113;--muted:#63636B;--mutedD:#9A9AA3;--line:rgba(17,17,19,.13);--lineD:rgba(255,255,255,.13);
+  --disp:"Inter Tight",Inter,system-ui,sans-serif;--sans:Inter,system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--paper);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+img{max-width:100%;display:block}a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.label{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+h1,h2,h3,h4{font-family:var(--disp);font-weight:600;letter-spacing:-.03em;line-height:1.05}
+h1{font-size:clamp(42px,6vw,82px);line-height:1.02}
+h2{font-size:clamp(32px,4.4vw,54px)}
+h1 em,h2 em{font-style:normal;color:var(--gold)}
+.dark h1 em,.dark h2 em{color:var(--gold2)}
+.lede{font-size:17.5px;color:var(--muted);max-width:60ch}
+section{padding:100px 0}
+.dark{background:var(--ink);color:#fff}.dark .lede{color:#B4B4BC}.dark .label{color:var(--gold2)}
+.softbg{background:var(--soft)}
+.head{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:end;margin-bottom:52px}
+.head h2{margin-top:16px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:6px;font-size:14px;font-weight:500;text-decoration:none;border:1px solid transparent;transition:.2s;cursor:pointer}
+.btn.solid{background:var(--gold);color:#fff}.btn.solid:hover{background:#8F7039}
+.btn.ghost{border-color:var(--lineD);color:#fff}.btn.ghost:hover{border-color:var(--gold2)}
+.credit{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;color:var(--muted);margin-top:22px;text-transform:uppercase}
+.dark .credit{color:var(--mutedD)}
+
+.nav{position:sticky;top:0;z-index:50;background:rgba(10,10,11,.93);backdrop-filter:blur(10px);color:#fff;border-bottom:1px solid var(--lineD)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{font-family:var(--disp);font-weight:600;font-size:18px;text-decoration:none;letter-spacing:-.02em}.brand span{color:var(--gold2)}
+.nav nav{display:flex;gap:24px;align-items:center}
+.nav nav a{font-size:13.5px;text-decoration:none;color:#C4C4CB}.nav nav a:hover{color:#fff}
+.nav .btn{padding:8px 15px;font-size:13px;color:#fff}
+
+.hero{background:var(--ink);color:#fff;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.3fr .7fr;gap:56px;align-items:end;padding-top:80px}
+.hero h1{margin:22px 0 24px}
+.hero p.sub{font-size:19px;color:#B4B4BC;max-width:54ch}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin:32px 0 54px}
+.meta{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;font-family:var(--mono);font-size:12px;color:var(--mutedD);margin-bottom:60px}
+.meta b{color:var(--gold2);font-weight:500}
+.portrait{position:relative;z-index:1}
+.portrait img{border-radius:6px 6px 0 0;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top}
+.portrait::before{content:"";position:absolute;inset:auto -18px 0 18px;height:80%;background:var(--gold);z-index:-1;border-radius:6px 6px 0 0}
+.proof{background:var(--ink2);color:#fff;border-top:1px solid var(--lineD)}
+.proof .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.proof .wrap>div{padding:30px 24px 30px 0;border-right:1px solid var(--lineD);margin-right:24px}
+.proof .wrap>div:last-child{border:0;margin:0}
+.proof strong{font-family:var(--disp);font-size:36px;font-weight:600;letter-spacing:-.03em;display:block;line-height:1.1;white-space:nowrap}
+.proof span{font-size:13px;color:var(--mutedD);display:block;margin-top:6px}
+.proof small{font-family:var(--mono);font-size:10.5px;color:var(--gold2);letter-spacing:.1em;text-transform:uppercase}
+
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.pillar{padding:32px 30px 0 0;border-right:1px solid var(--line);margin-right:30px}
+.pillar:last-child{border:0;margin:0}
+.pillar .n{font-family:var(--mono);font-size:12px;color:var(--gold)}
+.pillar h3{font-size:25px;margin:14px 0 12px}
+.pillar p{color:var(--muted);font-size:15px}
+.pillar ul{list-style:none;margin-top:18px;font-size:14px}.pillar li{padding:9px 0;border-top:1px solid var(--line)}
+
+/* case */
+.case{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.case .ph{display:grid;gap:12px}.case .ph img{border-radius:8px;width:100%;aspect-ratio:3/2;object-fit:cover}
+.case .ph .two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pmo{display:grid;gap:0;margin-top:8px}
+.pmo div{padding:18px 0;border-top:1px solid var(--line)}
+.dark .pmo div{border-color:var(--lineD)}
+.pmo b{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);font-weight:500;display:block;margin-bottom:6px}
+.dark .pmo b{color:var(--gold2)}
+.pmo p{font-size:15px;color:var(--muted)}.dark .pmo p{color:#B4B4BC}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:44px;border:1px solid var(--line);border-radius:8px}
+.dark .stats{border-color:var(--lineD)}
+.stats div{padding:22px;border-right:1px solid var(--line)}.dark .stats div{border-color:var(--lineD)}
+.stats div:last-child{border:0}
+.stats b{font-family:var(--disp);font-size:30px;font-weight:600;letter-spacing:-.03em;display:block}
+.stats span{font-size:12.5px;color:var(--muted)}.dark .stats span{color:var(--mutedD)}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:40px}
+.steps div{background:var(--soft);border-radius:8px;padding:18px;font-size:13.5px}
+.steps b{font-family:var(--mono);color:var(--gold);font-weight:500;display:block;margin-bottom:8px}
+
+/* mock ui */
+.dash{background:var(--ink2);border:1px solid var(--lineD);border-radius:10px;overflow:hidden;box-shadow:0 40px 80px -30px rgba(0,0,0,.7)}
+.dash-top{display:flex;justify-content:space-between;align-items:center;padding:16px 22px;border-bottom:1px solid var(--lineD)}
+.dash-top b{font-family:var(--disp);font-weight:600;font-size:17px}
+.dash-top i{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--mutedD)}
+.pill{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;padding:5px 10px;border-radius:5px;background:rgba(168,134,74,.2);color:var(--gold2);text-transform:uppercase;white-space:nowrap}
+.tabs{display:flex;gap:6px;padding:12px 22px;border-bottom:1px solid var(--lineD);overflow-x:auto}
+.tab{background:none;border:1px solid var(--lineD);color:#C4C4CB;padding:7px 13px;border-radius:6px;font:500 13px var(--sans);cursor:pointer;white-space:nowrap}
+.tab small{display:block;font-size:10.5px;color:var(--mutedD);font-weight:400}
+.tab.on{background:var(--gold);border-color:var(--gold);color:#fff}.tab.on small{color:#F3E7CF}
+.dash-body{padding:22px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}
+.kpi{background:var(--ink3);border-radius:8px;padding:15px 17px}
+.kpi span{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mutedD)}
+.kpi b{display:block;font-family:var(--disp);font-weight:600;font-size:27px;letter-spacing:-.03em;margin-top:5px}
+.kpi em{font-style:normal;font-size:12px;color:var(--gold2)}.kpi em.ok{color:#7FC8A9}.kpi em.bad{color:#F1958A}
+.grid2{display:grid;grid-template-columns:1.5fr 1fr;gap:12px}
+.panel{background:var(--ink3);border-radius:8px;padding:17px}
+.panel h4{font:500 13px var(--sans);letter-spacing:0;color:#E2E2E6;margin-bottom:12px;display:flex;justify-content:space-between}
+.panel h4 span{font-family:var(--mono);font-size:10.5px;color:var(--mutedD)}
+.legend{display:flex;gap:16px;font-size:11.5px;color:var(--mutedD);margin-top:8px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:6px}
+table.t{width:100%;border-collapse:collapse;font-size:13px}
+table.t th{text-align:left;font:500 10.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mutedD);padding:8px 10px;border-bottom:1px solid var(--lineD)}
+table.t td{padding:10px;border-bottom:1px solid rgba(255,255,255,.06);color:#E2E2E6}
+.tag{font-family:var(--mono);font-size:10.5px;padding:3px 8px;border-radius:4px;white-space:nowrap}
+.tag.r{background:rgba(224,92,75,.18);color:#F1958A}.tag.a{background:rgba(210,181,121,.18);color:var(--gold2)}.tag.g{background:rgba(127,200,169,.16);color:#7FC8A9}.tag.n{background:rgba(255,255,255,.08);color:#C4C4CB}
+.note{font-size:13px;color:var(--mutedD);margin-top:16px}
+.duo{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;margin-top:70px}
+.sub-h{font-family:var(--disp);font-size:26px;font-weight:600;letter-spacing:-.03em;margin:8px 0 10px}
+.max{background:var(--ink2);border:1px solid var(--lineD);border-radius:10px;padding:22px}
+.max .orb{width:74px;height:74px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#E9D5A7,var(--gold) 55%,#5C4720);box-shadow:0 0 0 8px rgba(168,134,74,.12),0 0 0 18px rgba(168,134,74,.06);margin:8px 0 22px}
+.max ul{list-style:none;font-size:13.5px;color:#D5D5DA}.max li{padding:9px 0;border-top:1px solid var(--lineD);display:flex;justify-content:space-between;gap:10px}
+.max .ask{margin-top:14px;background:var(--ink3);border-radius:6px;padding:11px 13px;font-family:var(--mono);font-size:12px;color:var(--gold2)}
+.syslist{display:grid;grid-template-columns:repeat(3,1fr);gap:0 36px;margin-top:70px}
+.syslist div{padding:13px 0;border-top:1px solid var(--lineD);font-size:14px;display:flex;justify-content:space-between;gap:12px;color:#E2E2E6}
+.syslist span{font-family:var(--mono);font-size:10.5px;color:var(--mutedD);white-space:nowrap}
+
+/* films and design */
+.films{display:grid;grid-template-columns:1.6fr 1fr;gap:16px}
+.film{position:relative;border-radius:8px;overflow:hidden;background:#000;display:block;color:#fff;cursor:pointer;border:0;padding:0;text-align:left;width:100%}
+.film img{width:100%;height:100%;object-fit:cover;opacity:.85;transition:.4s}
+.film:hover img{opacity:1;transform:scale(1.02)}
+.film .cap{position:absolute;inset:auto 0 0 0;padding:44px 20px 16px;background:linear-gradient(transparent,rgba(0,0,0,.88))}
+.film .cap b{font-family:var(--disp);font-weight:600;font-size:20px;display:block;letter-spacing:-.02em}
+.film .cap span{font-family:var(--mono);font-size:11px;color:#D8D8DD}
+.film .play{position:absolute;top:18px;left:18px;width:46px;height:46px;border-radius:50%;background:var(--gold);display:grid;place-items:center}
+.film .play::after{content:"";border-left:13px solid #fff;border-top:8px solid transparent;border-bottom:8px solid transparent;margin-left:4px}
+.film img.qr{display:none}
+.stack{display:grid;gap:16px}
+.rowh{display:flex;justify-content:space-between;align-items:baseline;margin:64px 0 18px;border-top:1px solid var(--line);padding-top:22px}
+.rowh h3{font-size:24px}.rowh span{font-size:13.5px;color:var(--muted)}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.piece{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.piece .im{overflow:hidden;background:var(--soft)}
+.piece .im img{width:100%;height:100%;object-fit:cover;object-position:top}
+.piece .tx{padding:14px 16px}
+.piece b{font-family:var(--disp);font-weight:600;font-size:16.5px;display:block;letter-spacing:-.02em}
+.piece span{font-size:13px;color:var(--muted)}
+.car{display:grid;grid-template-columns:repeat(8,1fr);gap:8px}
+.car img{border-radius:5px;border:1px solid var(--line)}
+
+/* record */
+.cases{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.cc{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.cc img{aspect-ratio:16/8;object-fit:cover;width:100%}
+.cc .b{padding:24px}
+.cc small{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.cc h3{font-size:23px;margin:8px 0 10px}
+.cc p{font-size:14.5px;color:var(--muted)}
+.cc .m{display:grid;grid-template-columns:repeat(3,1fr);margin-top:18px;border-top:1px solid var(--line)}
+.cc .m div{padding-top:14px}.cc .m b{font-family:var(--disp);font-size:22px;font-weight:600;letter-spacing:-.03em;display:block}.cc .m span{font-size:12px;color:var(--muted)}
+table.cv{width:100%;border-collapse:collapse;font-size:14.5px}
+table.cv th{text-align:left;font:500 10.5px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mutedD);padding:10px 12px 10px 0;border-bottom:1px solid var(--lineD)}
+table.cv td{padding:14px 12px 14px 0;border-bottom:1px solid var(--lineD);vertical-align:top}
+table.cv td:first-child{font-family:var(--mono);font-size:12px;color:var(--gold2);white-space:nowrap}
+table.cv td small{display:block;color:var(--mutedD);font-size:12.5px}
+.up{font-family:var(--mono);font-size:10px;background:var(--gold);color:#fff;padding:2px 7px;border-radius:4px;margin-left:8px;letter-spacing:.06em}
+
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.q{background:#fff;border:1px solid var(--line);border-radius:8px;padding:26px;display:flex;flex-direction:column;justify-content:space-between}
+.q p{font-size:16.5px;line-height:1.5}
+.q footer{margin-top:22px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+.q footer b{display:block;color:var(--text);font-size:14px}
+.creds{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:56px;border-top:1px solid var(--line);padding-top:28px;font-size:14px}
+.creds p{color:var(--muted);margin-top:8px}
+.certs{display:grid;grid-template-columns:repeat(11,1fr);gap:6px;margin-top:26px}
+.certs img{border:1px solid var(--line);border-radius:3px}
+
+.contact{background:var(--ink);color:#fff;padding:100px 0 40px}
+.contact h2{font-size:clamp(38px,5.6vw,74px);max-width:16ch;margin-top:16px}
+.cgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:52px;border-top:1px solid var(--lineD);padding-top:28px}
+.cgrid a{text-decoration:none;font-size:15.5px}.cgrid a:hover{color:var(--gold2)}
+.fine{font-size:12px;color:var(--mutedD);margin-top:60px;max-width:92ch}
+
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:100;display:none;place-items:center;padding:24px}
+.modal.on{display:grid}
+.modal video{max-width:min(1200px,100%);max-height:84vh;border-radius:8px;background:#000}
+.modal button{position:absolute;top:18px;right:22px;background:none;border:1px solid var(--lineD);color:#fff;font:500 13px var(--sans);padding:8px 14px;border-radius:6px;cursor:pointer}
+.print-only{display:none}
+
+@media screen and (max-width:900px){
+  .hero .wrap,.head,.grid2,.films,.case,.duo,.cases{grid-template-columns:1fr}
+  .head{gap:18px}
+  .nav nav a:not(.btn){display:none}
+  .proof .wrap,.kpis,.cgrid,.stats,.creds,.g4{grid-template-columns:1fr 1fr}
+  .pillars,.g3,.quotes,.syslist,.steps{grid-template-columns:1fr}
+  .pillar,.proof .wrap>div{border-right:0;margin-right:0}.pillar{padding-bottom:26px}
+  .stats div:nth-child(2){border-right:0}.stats div:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .car{grid-template-columns:repeat(4,1fr)}.certs{grid-template-columns:repeat(6,1fr)}
+  .portrait{max-width:320px}
+  section{padding:68px 0}
+  table.cv th:nth-child(3),table.cv td:nth-child(3){display:none}
+  .dash-body{padding:14px}.panel{overflow-x:auto}
+}
+@media print{
+  @page{size:1280px 1810px;margin:0}
+  .nav,.modal,.cta,.tab[data-x]{display:none!important}
+  .wrap{max-width:1180px;padding:0 50px}
+  section,.contact{padding:64px 0}
+  .pb{break-before:page}
+  #case,#clients,#record{min-height:1810px}
+  .dash{box-shadow:none}
+  .film img.qr{display:block;position:absolute;top:14px;right:14px;width:92px;height:92px;opacity:1;background:#fff;padding:4px;border-radius:4px}
+  .print-only{display:block}
+  .cc,.q,.piece,.dash,.max,.case,.stats,.steps,.films,.film,.g3,.g4,.cases,.quotes,.duo,.syslist,.car,.creds,.certs,table.cv,.pillars{break-inside:avoid}
+  a{text-decoration:none}
+}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top">Daud <span>Maqsood</span></a>
+  <nav>
+    <a href="#scope">Scope</a><a href="#case">Case</a><a href="#systems">Systems</a><a href="#marketing">Marketing</a><a href="#clients">Clients</a><a href="#record">Record</a>
+    <a class="btn solid" href="Daud-Maqsood-Portfolio-2026.pdf">PDF</a>
+  </nav>
+</div></header>
+
+<div class="hero" id="top"><div class="wrap">
+  <div>
+    <span class="label" style="color:var(--gold2)">Portfolio · Edition 2026 · Jubail, Saudi Arabia</span>
+    <h1>Operations clients can feel and leadership can <em style="color:var(--gold2)">measure.</em></h1>
+    <p class="sub">Daud Maqsood runs business operations, client service and marketing for an industrial contractor in Jubail, on registers, dashboards and AI tools built from zero legacy data.</p>
+    <div class="cta">
+      <a class="btn solid" href="#systems">See the systems</a>
+      <a class="btn ghost" href="#marketing">Watch the films</a>
+    </div>
+    <div class="meta">
+      <b>ROLE</b><span>Assistant Manager, Facility and Business Operations</span>
+      <b>RECORD</b><span>Since 2011 · seven industries · Saudi Arabia and Pakistan</span>
+      <b>STACK</b><span>Excel · Power BI · Google Apps Script · Claude</span>
+      <b class="print-only">ONLINE</b><span class="print-only"><a href="https://daudmaqsoodofficial-creator.github.io/portfolio/">daudmaqsoodofficial-creator.github.io/portfolio</a> · films and live dashboards</span>
+    </div>
+  </div>
+  <div class="portrait"><img src="assets/img/daud.webp" alt="Daud Maqsood"></div>
+</div></div>
+<div class="proof"><div class="wrap">
+  <div><small>Jubail · 2025 to 2026</small><strong>SAR 40–50K</strong><span>monthly cost leakage curtailed</span></div>
+  <div><small>Commercial desk</small><strong>40–50</strong><span>client RFQs handled each month</span></div>
+  <div><small>UK fintech account</small><strong>95%</strong><span>quality score across 200 to 250 daily cases</span></div>
+  <div><small>Giga project logistics</small><strong>100%</strong><span>client inspections passed, zero compliance lapses</span></div>
+</div></div>
+
+<section id="scope"><div class="wrap">
+  <div class="head">
+    <div><span class="label">01 · Scope</span><h2>Three functions, <em>one desk.</em></h2></div>
+    <p class="lede">Growing companies usually split these across three hires. The record below shows them held together, with one system underneath so nothing depends on memory.</p>
+  </div>
+  <div class="pillars">
+    <div class="pillar"><span class="n">A</span><h3>Business operations</h3><p>Procurement, vendors, fleet, facility and cost control for a 500 plus workforce across seven client projects.</p>
+      <ul><li>RFQ to quotation to purchase order cycle</li><li>Three vendor minimum on every purchase</li><li>26 supervisors, foremen, coordinators and technicians directed</li></ul></div>
+    <div class="pillar"><span class="n">B</span><h3>Client and customer service</h3><p>Client facing in every role held: fintech customers, giga project inspectors, restaurant guests, industrial buyers.</p>
+      <ul><li>Corporate mailbox owned from enquiry to purchase order</li><li>Joint inspections with the client at Ras Al Khair</li><li>95% quality on a UK fintech account</li></ul></div>
+    <div class="pillar"><span class="n">C</span><h3>Marketing and communications</h3><p>A company with no marketing function given a LinkedIn page, a sales kit, films and an exhibition presence.</p>
+      <ul><li>Company documentary, trailer and safety film</li><li>Flyers, carousels and corporate email signature</li><li>Static Arabia 2026 stand, three days led</li></ul></div>
+  </div>
+</div></section>
+
+<section id="case" class="softbg pb"><div class="wrap">
+  <div class="head">
+    <div><span class="label">02 · Current role · Sharooq Al Jubail · 2025 to date</span><h2>No handover. No records. <em>Control established.</em></h2></div>
+    <p class="lede">Joined as Facility Operations Coordinator in October 2025. Promoted to Assistant Manager, Facility and Business Operations in September 2026, eleven months later.</p>
+  </div>
+  <div class="case">
+    <div class="pmo">
+      <div><b>Position</b><p>On appointment there was no handover, no documentation and no checklists. Maintenance and diesel spend held no traceable record across a mixed fleet of more than 150 units.</p></div>
+      <div><b>Measures taken</b><p>The operating record was built from zero. Workshop supervisors, site foremen, coordinators and technicians were given registers, forms and procedures that fit how they work, then held to them on every service, refill and bill.</p></div>
+      <div><b>Outcome</b><p>Cost leakage of SAR 40,000 to 50,000 a month was curtailed. Leadership now reads the position from a dashboard. The remit was widened to the commercial desk, vendors and marketing.</p></div>
+    </div>
+    <div class="ph"><img src="assets/img/bd3.webp" alt="Sharooq stand with client delegation"><div class="two"><img src="assets/img/bd2.webp" alt=""><img src="assets/img/results.webp" alt=""></div></div>
+  </div>
+  <div class="steps">
+    <div><b>01</b>Every vehicle photographed, identified and placed on one asset register</div>
+    <div><b>02</b>Handover forms, checklists and gate passes issued to site and workshop</div>
+    <div><b>03</b>Preventive maintenance set on a date or kilometre trigger</div>
+    <div><b>04</b>Diesel and engine oil tested against work output, by project</div>
+    <div><b>05</b>Bills audited against cash sent; variances traced and recovered</div>
+  </div>
+  <div class="stats" style="background:#fff">
+    <div><b>SAR 40–50K</b><span>curtailed each month</span></div>
+    <div><b>150+</b><span>fleet units on register</span></div>
+    <div><b>~20%</b><span>fleet availability improved</span></div>
+    <div><b>7</b><span>client projects supported</span></div>
+  </div>
+</div></section>
+
+<section class="dark pb" id="systems"><div class="wrap">
+  <div class="head">
+    <div><span class="label">03 · Systems built</span><h2>The live management <em>dashboard.</em></h2></div>
+    <p class="lede">Built in Google Apps Script. Thirteen modules, English and Arabic, refreshed from the workshop and site registers. Leadership sees oil, diesel, maintenance and document compliance on one screen.</p>
+  </div>
+  <div class="dash">
+    <div class="dash-top"><div><b>Fleet and Operations Intelligence</b><br><i>Last updated 10 Nov 2026 12:50 · 104 units tracked</i></div><span class="pill">Sample data</span></div>
+    <div class="tabs" id="tabs"></div>
+    <div class="dash-body" id="body"></div>
+  </div>
+  <p class="note">Working recreations. Figures, plates, clients and project names are invented. The production systems hold company data and are not published.</p>
+
+  <div class="duo">
+    <div>
+      <span class="label">Commercial desk</span>
+      <p class="sub-h">Email and RFQ Command Centre</p>
+      <p class="lede" style="margin-bottom:18px;font-size:15px">Every client enquiry tracked from the shared mailbox to the purchase order, with the next action and its owner. An AI skill reads the mailbox, finds reference numbers inside attachments and reconciles the folders on each run.</p>
+      <div class="dash"><div class="dash-body" style="padding:8px 14px">
+        <table class="t"><tr><th>Ref</th><th>Client</th><th>Work type</th><th>Stage</th><th>Next action</th></tr>
+        <tr><td>RFQ-0412</td><td>Client A · Steel</td><td>Civil works</td><td><span class="tag g">PO received</span></td><td>Hand over to site</td></tr>
+        <tr><td>RFQ-0415</td><td>Client B · Petrochem</td><td>Manpower supply</td><td><span class="tag a">QT sent</span></td><td>Follow up 13 Nov</td></tr>
+        <tr><td>RFQ-0418</td><td>Client C · Utilities</td><td>Equipment rental</td><td><span class="tag r">At pricing 52 h</span></td><td>Chase estimator</td></tr>
+        <tr><td>RFQ-0421</td><td>Client D · Pipes</td><td>Hydro jetting</td><td><span class="tag n">New today</span></td><td>Acknowledge, log</td></tr>
+        <tr><td>RFQ-0409</td><td>Client A · Steel</td><td>Scaffolding</td><td><span class="tag g">Job completed</span></td><td>File certificate</td></tr></table>
+      </div></div>
+    </div>
+    <div>
+      <span class="label">Applied AI</span>
+      <p class="sub-h">MAX, executive assistant</p>
+      <div class="max">
+        <div class="orb"></div>
+        <ul><li><span>Documents expiring within 7 days</span><b>3</b></li><li><span>RFQs waiting on pricing over 48 h</span><b>2</b></li><li><span>Client replies due today</span><b>1</b></li><li><span>Fleet availability this week</span><b>94%</b></li></ul>
+        <div class="ask">&gt; Which units have documents expiring this week?</div>
+      </div>
+      <p class="note">Sits above the registers and a knowledge vault. Each answer cites its source note. A voice interface is at prototype stage.</p>
+    </div>
+  </div>
+
+  <div class="syslist">
+    <div>Live management dashboard <span>APPS SCRIPT</span></div>
+    <div>Email and RFQ Command Centre <span>EXCEL · AI</span></div>
+    <div>Fleet document compliance register <span>EXCEL</span></div>
+    <div>Preventive maintenance tracker <span>EXCEL</span></div>
+    <div>Engine oil tracking system <span>EXCEL</span></div>
+    <div>Diesel consumption and variance control <span>EXCEL</span></div>
+    <div>Master fleet and asset register <span>EXCEL</span></div>
+    <div>Vendor invoice and workshop bill register <span>EXCEL · AI</span></div>
+    <div>Attendance, timesheet and gate pass control <span>EXCEL</span></div>
+    <div>Tyre and fire extinguisher inspection tracker <span>EXCEL</span></div>
+    <div>Employee database with executive dashboard <span>EXCEL</span></div>
+    <div>Orientation quiz with pass and fail dashboard <span>APPS SCRIPT</span></div>
+    <div>Marketing and client leads tracker <span>EXCEL</span></div>
+    <div>Executive fleet and cost dashboards <span>POWER BI</span></div>
+    <div>ZATCA compliant quotation template <span>WORD · EXCEL</span></div>
+    <div>Corporate email signature standard <span>HTML</span></div>
+    <div>SOPs supporting ISO 9001, 14001 and 45001 <span>DOCUMENTS</span></div>
+    <div>MAX assistant and AI skills library <span>CLAUDE</span></div>
+  </div>
+  <p class="credit">System Architect · Daud Maqsood · eighteen systems, all built from zero legacy data</p>
+</div></section>
+
+<section id="marketing" class="pb"><div class="wrap">
+  <div class="head">
+    <div><span class="label">04 · Marketing and communications</span><h2>Marketing made <em>in house.</em></h2></div>
+    <p class="lede">Scripted, designed and rendered without an agency. The films are generated from code at 4K, so a revision takes hours, not weeks.</p>
+  </div>
+  <div class="films">
+    <button class="film" data-v="documentary"><img src="assets/img/film-register.webp" alt=""><span class="play"></span><img class="qr" src="assets/img/qr-documentary.png" alt="QR"><div class="cap"><b>Company documentary</b><span>2:16 · 4K MASTER · SCRIPT, EDIT AND RENDER PIPELINE</span></div></button>
+    <div class="stack">
+      <button class="film" data-v="safety"><img src="assets/img/film-safety.webp" alt=""><span class="play"></span><img class="qr" src="assets/img/qr-safety.png" alt="QR"><div class="cap"><b>Safety film</b><span>1:30 · CLIENT SAFETY EVENT</span></div></button>
+      <button class="film" data-v="trailer"><img src="assets/img/film-trailer.webp" alt=""><span class="play"></span><img class="qr" src="assets/img/qr-trailer.png" alt="QR"><div class="cap"><b>Company trailer</b><span>0:30 · LINKEDIN AND EXHIBITION SCREENS</span></div></button>
+    </div>
+  </div>
+  <p class="credit print-only">Scan a code or open <a href="https://daudmaqsoodofficial-creator.github.io/portfolio/#marketing">daudmaqsoodofficial-creator.github.io/portfolio</a> to play each film.</p>
+
+  <div class="rowh"><h3>Print and exhibition</h3><span>Division flyer, print ready in CMYK · Static Arabia 2026, Dhahran Expo</span></div>
+  <div class="g3">
+    <div class="piece"><div class="im" style="aspect-ratio:4/5"><img src="assets/img/flyer-out.webp" alt=""></div><div class="tx"><b>Division flyer, outside</b><span>Revision 4, issued for print</span></div></div>
+    <div class="piece"><div class="im" style="aspect-ratio:4/5"><img src="assets/img/flyer-in.webp" alt=""></div><div class="tx"><b>Division flyer, inside</b><span>Services, equipment and clients</span></div></div>
+    <div class="piece"><div class="im" style="aspect-ratio:4/5"><img src="assets/img/bd1.webp" alt="" style="object-position:center"></div><div class="tx"><b>Exhibition stand, three days led</b><span>Delegate meetings and capability briefings</span></div></div>
+  </div>
+
+  <div class="rowh"><h3>LinkedIn carousel</h3><span>Eight slides, exhibition recap</span></div>
+  <div class="car"><img src="assets/img/car-01.webp" alt=""><img src="assets/img/car-02.webp" alt=""><img src="assets/img/car-03.webp" alt=""><img src="assets/img/car-04.webp" alt=""><img src="assets/img/car-05.webp" alt=""><img src="assets/img/car-06.webp" alt=""><img src="assets/img/car-07.webp" alt=""><img src="assets/img/car-08.webp" alt=""></div>
+
+  <div class="rowh"><h3>Company page and corporate identity</h3><span>LinkedIn page created and managed · signature standard deployed company wide</span></div>
+  <div class="g3">
+    <div class="piece"><div class="im" style="aspect-ratio:4/3"><img src="assets/img/li-hiring.webp" alt=""></div><div class="tx"><b>Recruitment campaign</b><span>68 positions advertised on the company page</span></div></div>
+    <div class="piece"><div class="im" style="aspect-ratio:4/3"><img src="assets/img/li-national.webp" alt=""></div><div class="tx"><b>National Day post</b><span>Company page content calendar</span></div></div>
+    <div class="piece"><div class="im" style="aspect-ratio:4/3;background:#fff"><img src="assets/img/signature.webp" alt="" style="object-fit:contain"></div><div class="tx"><b>Corporate email signature</b><span>Client logos and certification strip, HTML</span></div></div>
+  </div>
+  <p class="credit">System Architect · Daud Maqsood · +966 57 339 0913 · linkedin.com/in/daudmaqsood</p>
+</div></section>
+
+<section id="clients" class="softbg pb"><div class="wrap">
+  <div class="head">
+    <div><span class="label">05 · Client and customer record</span><h2>Every request, <em>answered.</em></h2></div>
+    <p class="lede">The standard was set on an international account and carried into every role since. A request is logged the day it arrives, each reply carries a status, and every complaint is closed with evidence.</p>
+  </div>
+  <div class="cases">
+    <div class="cc"><img src="assets/img/insp.webp" alt=""><div class="b"><small>FMCO · NEOM and IMI Ras Al Khair · 2024 to 2025</small><h3>Zero lapses on a giga project.</h3><p>More than 30 buses, coasters and pickups moved staff on a maritime yard under frequent client inspection. Documents were brought to one standard, inspections run jointly with the client and weekly driver training introduced.</p>
+      <div class="m"><div><b>0</b><span>compliance lapses</span></div><div><b>100%</b><span>inspections passed</span></div><div><b>10–15%</b><span>fewer road incidents</span></div></div></div></div>
+    <div class="cc"><img src="assets/img/train1.webp" alt=""><div class="b"><small>Mindbridge for Revolut UK · 2022 to 2024</small><h3>Premium customers, verified daily.</h3><p>International customers served by live chat and voice. Passports, visas and permits verified for fraud and compliance. New hires coached through shadowing and nesting.</p>
+      <div class="m"><div><b>95%</b><span>quality score</span></div><div><b>200–250</b><span>identity documents a day</span></div><div><b>~40%</b><span>trainee proficiency lift</span></div></div></div></div>
+    <div class="cc"><img src="assets/img/conf.webp" alt=""><div class="b"><small>Talon Institute of Higher Studies · 2020 to 2022</small><h3>A department assumed without notice.</h3><p>The Admissions Manager post fell vacant and the department was taken over at once. Campaigns, parent meetings and admissions drives were run, and a national accreditation conference was hosted.</p>
+      <div class="m"><div><b>PKR 1M</b><span>revenue in 4 to 5 months</span></div><div><b>~20%</b><span>more incoming leads</span></div><div><b>~15%</b><span>satisfaction lift</span></div></div></div></div>
+    <div class="cc"><img src="assets/img/rest.webp" alt=""><div class="b"><small>Bau G Daira and Platter Junction · 2015 to 2019</small><h3>A new restaurant brought to a running business.</h3><p>Operations taken over in full: marketing, customer channels, rotas, service standards, procurement and sales reporting. Private, corporate and VIP events hosted at a premium mall venue.</p>
+      <div class="m"><div><b>+50%</b><span>sales growth</span></div><div><b>+40%</b><span>customer retention</span></div><div><b>1,000+</b><span>guest interactions a day</span></div></div></div></div>
+  </div>
+  <div class="g4" style="margin-top:16px">
+    <div class="piece"><div class="im" style="aspect-ratio:1"><img src="assets/img/imi.webp" alt=""></div></div>
+    <div class="piece"><div class="im" style="aspect-ratio:1"><img src="assets/img/drv.webp" alt="" style="object-position:center"></div></div>
+    <div class="piece"><div class="im" style="aspect-ratio:1"><img src="assets/img/saudi2.webp" alt="" style="object-position:center"></div></div>
+    <div class="piece"><div class="im" style="aspect-ratio:1"><img src="assets/img/lect.webp" alt="" style="object-position:center"></div></div>
+  </div>
+  <p class="credit">Ras Al Khair maritime yard · driver safety training · Dhahran Expo · accreditation conference, Lahore</p>
+</div></section>
+
+<section id="record" class="dark pb"><div class="wrap">
+  <div class="head">
+    <div><span class="label">06 · Career record</span><h2>Seven industries. <em>One standard.</em></h2></div>
+    <p class="lede">Each move added a discipline the next role used: enterprise software, hospitality service, education sales, fintech compliance, giga project logistics, industrial contracting.</p>
+  </div>
+  <table class="cv">
+    <tr><th>Period</th><th>Role and organisation</th><th>Sector</th><th>Country</th></tr>
+    <tr><td>Sep 2026 – now</td><td>Assistant Manager, Facility and Business Operations<span class="up">PROMOTED</span><small>Sharooq Al Jubail International</small></td><td>Industrial contracting</td><td>KSA</td></tr>
+    <tr><td>Oct 2025 – Aug 2026</td><td>Facility Operations Coordinator<small>Sharooq Al Jubail International</small></td><td>Industrial contracting</td><td>KSA</td></tr>
+    <tr><td>Oct 2024 – Sep 2025</td><td>Logistics, Documents Control and Operations Coordinator<small>FMCO · IMI Ras Al Khair</small></td><td>Maritime giga project</td><td>KSA</td></tr>
+    <tr><td>Jul 2024 – Oct 2024</td><td>Operations Supervisor<small>FMCO · NEOM</small></td><td>Giga project logistics</td><td>KSA</td></tr>
+    <tr><td>Jun 2022 – Jul 2024</td><td>Senior Customer and KYC Support Coordinator<small>Mindbridge · Revolut UK account</small></td><td>Fintech BPO</td><td>Pakistan</td></tr>
+    <tr><td>Mar 2020 – May 2022</td><td>Assistant Manager, Admissions and Operations<small>Talon Institute of Higher Studies</small></td><td>Higher education</td><td>Pakistan</td></tr>
+    <tr><td>Apr 2018 – Sep 2019</td><td>Customer Service Operations Manager<small>Bau G Daira</small></td><td>Restaurant</td><td>Pakistan</td></tr>
+    <tr><td>Oct 2015 – Feb 2018</td><td>Customer Service and Operations Supervisor<small>Platter Junction, Emporium Mall</small></td><td>Hospitality</td><td>Pakistan</td></tr>
+    <tr><td>Jun 2013 – May 2015</td><td>Customer Support and Sales Executive, ERP<small>Aisone Systems</small></td><td>Software</td><td>Pakistan</td></tr>
+    <tr><td>Mar 2011 – Sep 2012</td><td>Data Entry and Administrative Support<small>Board of Intermediate and Secondary Education, Lahore</small></td><td>Public sector</td><td>Pakistan</td></tr>
+  </table>
+  <div class="stats">
+    <div><b>Days 1–30</b><span>Listen and map. Every team lead met, every site walked. Where requests, data and money enter, wait and leak.</span></div>
+    <div><b>Days 31–60</b><span>Build control. One register per asset class, one log per request type, alerts on every expiry.</span></div>
+    <div><b>Days 61–90</b><span>Run on data. Leadership dashboard live weekly, KPIs against agreed targets.</span></div>
+    <div><b>After</b><span>Hand over. Procedures written so the system survives without its builder.</span></div>
+  </div>
+</div></section>
+
+<section id="voices" class="pb"><div class="wrap">
+  <div class="head">
+    <div><span class="label">07 · Recommendations and credentials</span><h2>In the words of <em>colleagues.</em></h2></div>
+    <p class="lede">Published on <a href="https://www.linkedin.com/in/daudmaqsood/details/recommendations/">LinkedIn</a> by the people named.</p>
+  </div>
+  <div class="quotes">
+    <div class="q"><p>“He won't leave a problem until it's perfectly solved while maintaining the work output of several people.”</p><footer><b>Waqas Anwar</b>E-commerce Operations Professional · February 2024</footer></div>
+    <div class="q"><p>“He consistently impressed me with his professionalism, dedication, and expertise in Customer Support, Data Processing and KYC Due Diligence.”</p><footer><b>Usman Haider</b>Data Analyst · colleague at Mindbridge for Revolut · February 2024</footer></div>
+    <div class="q"><p>“A hardworking, reliable, and responsible individual who consistently performed his duties with professionalism and dedication.”</p><footer><b>Ramael Saturinas, D.M., Ed.D.</b>Quality Management, ISO 9001 · 14001 · 45001 · June 2026</footer></div>
+  </div>
+  <div class="creds">
+    <div><span class="label">Education</span><p>Diploma of Associate Engineering, Mechanical. Bahauddin Zakariya University, 2014.</p></div>
+    <div><span class="label">Systems</span><p>Power BI, advanced Excel, Power Query, Google Apps Script, Claude, Obsidian, ERP, CAFM, CMMS, CRM, Microsoft 365.</p></div>
+    <div><span class="label">Languages and standards</span><p>English professional. Urdu and Hindi native. Arabic working. ISO 9001, 14001, 45001. ZATCA VAT.</p></div>
+    <div><span class="label">Status</span><p>Transferable iqama. Saudi driving licence. Based in Jubail Industrial City.</p></div>
+  </div>
+  <div class="certs"><img src="assets/img/cert0.webp" alt=""><img src="assets/img/cert1.webp" alt=""><img src="assets/img/cert2.webp" alt=""><img src="assets/img/cert3.webp" alt=""><img src="assets/img/cert4.webp" alt=""><img src="assets/img/cert5.webp" alt=""><img src="assets/img/cert6.webp" alt=""><img src="assets/img/cert7.webp" alt=""><img src="assets/img/cert8.webp" alt=""><img src="assets/img/cert9.webp" alt=""><img src="assets/img/cert10.webp" alt=""></div>
+  <p class="credit">Thirteen course certificates in UK fintech compliance, customer service and workplace standards, awarded during the Revolut account. Available for verification.</p>
+</div></section>
+
+<div class="contact" id="contact"><div class="wrap">
+  <span class="label" style="color:var(--gold2)">Contact</span>
+  <h2>For companies whose growth has outpaced their <em style="color:var(--gold2)">systems.</em></h2>
+  <div class="cgrid">
+    <div><span class="label" style="color:var(--gold2)">Email</span><br><a href="mailto:daudmaqsoodofficial@gmail.com">daudmaqsoodofficial@gmail.com</a></div>
+    <div><span class="label" style="color:var(--gold2)">Phone · WhatsApp</span><br><a href="https://wa.me/966573390913">+966 57 339 0913</a></div>
+    <div><span class="label" style="color:var(--gold2)">LinkedIn</span><br><a href="https://www.linkedin.com/in/daudmaqsood">linkedin.com/in/daudmaqsood</a></div>
+    <div><span class="label" style="color:var(--gold2)">Online portfolio</span><br><a href="https://daudmaqsoodofficial-creator.github.io/portfolio/">Films and live dashboards</a></div>
+  </div>
+  <p class="fine">Work samples are recreations on sample data. Results are drawn from role records for the periods stated; figures marked ~ are approximate. Internal documents and commercial values of current and former employers are withheld. A full CV and references are available on request.</p>
+</div></div>
+
+<div class="modal" id="modal"><button onclick="closeV()">Close ✕</button><video id="vid" controls playsinline></video></div>
+
+<script>
+const M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct"];
+const D={
+ overview:{en:"Overview",ar:"نظرة عامة",
+  kpi:[["Total fleet cost","SAR 486,200","diesel, oil and maintenance"],["Diesel","SAR 291,400","2,104 refills"],["Maintenance","SAR 176,900","318 jobs"],["Expired documents","7","across 104 units","bad"]],
+  a:[18,24,27,29,31,30,34,38,33,27],b:[9,14,17,18,17,19,18,21,17,13],la:"Diesel",lb:"Maintenance",title:"Monthly cost trend, SAR thousand",
+  donut:[["Diesel",60],["Maintenance",36],["Engine oil",4]],
+  th:["Unit","Project","Document","Status"],rows:[["HV-031","Project A","Insurance","r","Expired 6 days"],["MD-114","Project B","Site permit","a","5 days left"],["LT-219","Internal","Inspection","a","12 days left"],["HV-046","Project C","Registration","g","Renewed"]]},
+ diesel:{en:"Diesel",ar:"الديزل",
+  kpi:[["Litres issued","412,600 L","year to date"],["Cost","SAR 291,400","SAR 0.71 per litre"],["Top consumer","HV-046","38,210 L"],["Variance flags","3","issued against expected","bad"]],
+  a:[31,38,41,43,45,44,48,52,46,40],b:[30,36,39,41,42,41,43,44,42,39],la:"Issued",lb:"Expected from work output",title:"Diesel issued against expected, thousand litres",
+  donut:[["Project A",41],["Project B",27],["Project C",22],["Internal",10]],
+  th:["Unit","Project","Issued","Check"],rows:[["HV-046","Project C","+63% over expected","r","Investigate"],["MD-102","Project A","+18% over expected","a","Watch"],["HV-012","Project B","+11% over expected","a","Watch"],["LT-207","Internal","Within range","g","Clear"]]},
+ maint:{en:"Maintenance",ar:"الصيانة",
+  kpi:[["Jobs closed","318","year to date"],["Spend","SAR 176,900","parts and labour"],["Preventive share","71%","up from 34%","ok"],["Overdue services","4","date or kilometre trigger","bad"]],
+  a:[4,7,9,12,15,19,22,25,27,29],b:[14,13,12,11,10,9,8,8,7,6],la:"Preventive jobs",lb:"Breakdown jobs",title:"Preventive against breakdown jobs per month",
+  donut:[["Preventive",71],["Corrective",22],["Tyres",7]],
+  th:["Unit","Trigger","Due","Status"],rows:[["HV-019","Kilometres","412 km over","r","Overdue"],["MD-121","Date","3 days","a","Due soon"],["LT-233","Kilometres","1,150 km left","g","On plan"],["HV-008","Date","21 days","g","On plan"]]},
+ comp:{en:"Compliance",ar:"الامتثال",
+  kpi:[["Units tracked","104","five document types"],["Valid","93%","484 of 520 documents","ok"],["Expiring in 30 days","29","alerts issued"],["Expired","7","blocked from site","bad"]],
+  a:[71,76,80,84,86,88,90,91,92,93],b:[22,18,15,12,10,9,8,7,7,7],la:"Valid documents, %",lb:"Expired, count",title:"Document validity since the register went live",
+  donut:[["Valid",93],["Expiring",5],["Expired",2]],
+  th:["Unit","Project","Nearest expiry","Status"],rows:[["HV-031","Project A","Insurance","r","Expired"],["MD-114","Project B","Site permit","a","5 days"],["HV-046","Project C","Insurance","g","64 days"],["LT-219","Internal","Permit","g","150 days"]]}
+};
+const C=["#D2B579","#8C8C92","#A8864A","#5C5C63"];
+function line(a,b){const W=560,H=210,p=28,mx=Math.max(...a,...b)*1.12;
+ const X=i=>p+i*(W-p*1.4)/(a.length-1),Y=v=>H-p-v*(H-p*1.6)/mx;
+ const path=s=>s.map((v,i)=>(i?"L":"M")+X(i).toFixed(1)+" "+Y(v).toFixed(1)).join(" ");
+ let g="";for(let i=0;i<4;i++){const y=p*.6+i*(H-p*1.6)/3;g+=`<line x1="${p}" x2="${W-8}" y1="${y}" y2="${y}" stroke="rgba(255,255,255,.07)"/>`}
+ const lab=M.map((m,i)=>`<text x="${X(i)}" y="${H-6}" fill="#9A9AA3" font-size="10" text-anchor="middle" font-family="JetBrains Mono">${m}</text>`).join("");
+ return `<svg viewBox="0 0 ${W} ${H}" width="100%" style="min-width:420px">${g}<path d="${path(a)} L${X(a.length-1)} ${H-p} L${p} ${H-p}Z" fill="${C[0]}" fill-opacity=".1"/><path d="${path(b)}" fill="none" stroke="${C[1]}" stroke-width="2"/><path d="${path(a)}" fill="none" stroke="${C[0]}" stroke-width="2.5"/>${a.map((v,i)=>`<circle cx="${X(i)}" cy="${Y(v)}" r="3" fill="${C[0]}"/>`).join("")}${lab}</svg>`}
+function donut(d){let o=0,s="";const R=58,L=2*Math.PI*R;d.forEach((x,i)=>{const len=L*x[1]/100;s+=`<circle r="${R}" cx="80" cy="80" fill="none" stroke="${C[i]}" stroke-width="20" stroke-dasharray="${len} ${L-len}" stroke-dashoffset="${-o}" transform="rotate(-90 80 80)"/>`;o+=len});
+ return `<div style="display:flex;gap:18px;align-items:center"><svg viewBox="0 0 160 160" width="145">${s}<text x="80" y="88" text-anchor="middle" fill="#fff" font-size="23" font-weight="600" font-family="Inter Tight">${d[0][1]}%</text></svg><div>${d.map((x,i)=>`<div style="font-size:12.5px;color:#C4C4CB;margin:7px 0"><i style="display:inline-block;width:9px;height:9px;border-radius:2px;background:${C[i]};margin-right:8px"></i>${x[0]} · ${x[1]}%</div>`).join("")}</div></div>`}
+function show(k){const d=D[k];
+ document.getElementById("tabs").innerHTML=Object.keys(D).map(x=>`<button class="tab ${x==k?"on":""}" onclick="show('${x}')">${D[x].en}<small>${D[x].ar}</small></button>`).join("")+["Project bills","Parts supplier","Tyre bills","Refill sheets"].map(x=>`<button class="tab" data-x style="opacity:.45;cursor:default">${x}<small>module</small></button>`).join("");
+ document.getElementById("body").innerHTML=`<div class="kpis">${d.kpi.map(x=>`<div class="kpi"><span>${x[0]}</span><b>${x[1]}</b><em class="${x[3]||""}">${x[2]}</em></div>`).join("")}</div>
+ <div class="grid2"><div class="panel"><h4>${d.title}<span>2026</span></h4>${line(d.a,d.b)}<div class="legend"><span><i style="background:${C[0]}"></i>${d.la}</span><span><i style="background:${C[1]}"></i>${d.lb}</span></div></div>
+ <div class="panel"><h4>Split<span>share</span></h4>${donut(d.donut)}</div></div>
+ <div class="panel" style="margin-top:12px"><h4>Alerts<span>live from register</span></h4><table class="t"><tr>${d.th.map(h=>`<th>${h}</th>`).join("")}</tr>${d.rows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td><span class="tag ${r[3]}">${r[4]}</span></td></tr>`).join("")}</table></div>`}
+show("overview");
+const modal=document.getElementById("modal"),vid=document.getElementById("vid");
+function openV(n){vid.src="assets/video/"+n+".mp4";modal.classList.add("on");vid.play().catch(()=>{})}
+function closeV(){vid.pause();vid.removeAttribute("src");vid.load();modal.classList.remove("on")}
+document.querySelectorAll(".film").forEach(f=>f.onclick=()=>openV(f.dataset.v));
+modal.onclick=e=>{if(e.target===modal)closeV()};document.onkeydown=e=>{if(e.key==="Escape")closeV()};
+const qv=new URLSearchParams(location.search).get("v");if(["documentary","safety","trailer"].includes(qv)){document.getElementById("marketing").scrollIntoView();openV(qv)}
+</script>
+</body>
+</html>
