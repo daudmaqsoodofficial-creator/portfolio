@@ -156,6 +156,15 @@ table.t td{padding:10px;border-bottom:1px solid rgba(255,255,255,.06);color:#E2E
 .car{display:grid;grid-template-columns:repeat(8,1fr);gap:8px}
 .car img{border-radius:5px;border:1px solid var(--line)}
 
+.ev{position:relative;border-radius:8px;overflow:hidden;background:#000;margin:0}
+.ev img{width:100%;height:100%;object-fit:cover;display:block}
+.ev figcaption{position:absolute;inset:auto 0 0 0;padding:40px 16px 13px;background:linear-gradient(transparent,rgba(0,0,0,.86));font-size:12.5px;color:#D8D8DD}
+.ev figcaption b{display:block;font-family:var(--disp);font-weight:600;font-size:16.5px;color:#fff;letter-spacing:-.02em}
+.ev.big figcaption b{font-size:22px}
+.ev.top figcaption{inset:0 0 auto 0;padding:13px 16px 40px;background:linear-gradient(rgba(0,0,0,.8),transparent)}
+.ev-top{display:grid;grid-template-columns:2.04fr 1fr;gap:16px}
+.ev-side{display:grid;gap:16px}
+.ev-steps div{background:var(--ink3);color:#D5D5DA}.ev-steps b{color:var(--gold2)}
 /* record */
 .cases{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .cc{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
@@ -196,7 +205,7 @@ table.cv td small{display:block;color:var(--mutedD);font-size:12.5px}
 .print-only{display:none}
 
 @media screen and (max-width:900px){
-  .hero .wrap,.head,.grid2,.films,.case,.duo,.cases{grid-template-columns:1fr}
+  .hero .wrap,.head,.grid2,.films,.case,.duo,.cases,.ev-top{grid-template-columns:1fr!important}
   .head{gap:18px}
   .nav nav a:not(.btn){display:none}
   .proof .wrap,.kpis,.cgrid,.stats,.creds,.g4{grid-template-columns:1fr 1fr}
@@ -215,7 +224,8 @@ table.cv td small{display:block;color:var(--mutedD);font-size:12.5px}
   .wrap{max-width:1180px;padding:0 50px}
   section,.contact{padding:64px 0}
   .pb{break-before:page}
-  #case,#clients,#record{min-height:1810px}
+  #case,#clients,#record,#event{min-height:1810px}
+  .ev,.ev-top{break-inside:avoid}
   #systems{min-height:3620px}
   #marketing{padding:44px 0}#marketing .head{margin-bottom:30px}
   .rowh{margin-top:22px;padding-top:16px;margin-bottom:12px}
@@ -234,7 +244,7 @@ table.cv td small{display:block;color:var(--mutedD);font-size:12.5px}
 <header class="nav"><div class="wrap">
   <a class="brand" href="#top">Daud <span>Maqsood</span></a>
   <nav>
-    <a href="#scope">Scope</a><a href="#case">Case</a><a href="#systems">Systems</a><a href="#marketing">Marketing</a><a href="#clients">Clients</a><a href="#record">Record</a>
+    <a href="#scope">Scope</a><a href="#case">Case</a><a href="#systems">Systems</a><a href="#marketing">Marketing</a><a href="#event">Event</a><a href="#clients">Clients</a><a href="#record">Record</a>
     <a class="btn solid" href="Daud-Maqsood-Portfolio-2026.pdf">PDF</a>
   </nav>
 </div></header>
@@ -275,7 +285,7 @@ table.cv td small{display:block;color:var(--mutedD);font-size:12.5px}
     <div class="pillar"><span class="n">B</span><h3>Client and customer service</h3><p>Client facing in every role held: fintech customers, giga project inspectors, restaurant guests, industrial buyers.</p>
       <ul><li>Corporate mailbox owned from enquiry to purchase order</li><li>Joint inspections with the client at Ras Al Khair</li><li>95% quality on a UK fintech account</li></ul></div>
     <div class="pillar"><span class="n">C</span><h3>Marketing and communications</h3><p>A company with no marketing function given a LinkedIn page, a sales kit, films and an exhibition presence.</p>
-      <ul><li>Company documentary, trailer and safety film</li><li>Flyers, carousels and corporate email signature</li><li>Static Arabia 2026 stand, three days led</li></ul></div>
+      <ul><li>Company documentary, trailer and safety film</li><li>Flyers, carousels and corporate email signature</li><li>Static Arabia stand and a client safety campaign run</li></ul></div>
   </div>
 </div></section>
 
@@ -401,9 +411,40 @@ table.cv td small{display:block;color:var(--mutedD);font-size:12.5px}
   <p class="credit">System Architect · Daud Maqsood · +966 57 339 0913 · linkedin.com/in/daudmaqsood</p>
 </div></section>
 
+<section id="event" class="dark pb"><div class="wrap">
+  <div class="head">
+    <div><span class="label">05 · Client event · Safety Campaign 2026 · 11 and 12 November</span><h2>Two days on the client's ground, <em>recognised on stage.</em></h2></div>
+    <p class="lede">JESCO and ArcelorMittal Tubular Products Al-Jubail ran a two day plant safety campaign for their contractors. Sharooq's participation was planned, supplied and run from one desk, and closed with a certificate of appreciation from the client.</p>
+  </div>
+  <div class="ev-top">
+    <figure class="ev big"><img src="assets/img/se-award.webp" alt="Certificate of appreciation presented on stage"><figcaption><b>Certificate of appreciation</b>Presented on stage by the client at the close of the campaign</figcaption></figure>
+    <div class="ev-side">
+      <figure class="ev"><img src="assets/img/se-vip.webp" alt="Memento presented to a client guest at the stand"><figcaption><b>VIP hosting</b>Client leadership received at the stand</figcaption></figure>
+      <figure class="ev top"><img src="assets/img/se-gift.webp" alt="Gift handed to a plant visitor"><figcaption><b>Giveaways</b>Branded gifts for every visitor</figcaption></figure>
+    </div>
+  </div>
+  <div class="g3" style="margin-top:16px">
+    <figure class="ev"><img src="assets/img/se-crew.webp" alt="Sharooq crew at the stand"><figcaption><b>The crew</b>Briefed, uniformed and rostered across both days</figcaption></figure>
+    <figure class="ev"><img src="assets/img/se-workers.webp" alt="Plant workers at the stand"><figcaption><b>Plant workforce</b>Safety content and gifts taken to the people on the line</figcaption></figure>
+    <figure class="ev"><img src="assets/img/se-clients.webp" alt="Client staff at the stand"><figcaption><b>Client teams</b>Conversations that carry into new enquiries</figcaption></figure>
+  </div>
+  <div class="ev-top" style="grid-template-columns:1.32fr 1fr;margin-top:16px">
+    <figure class="ev"><img src="assets/img/se-crowd.webp" alt="All participants at the campaign stage"><figcaption><b>The campaign</b>Client staff and contractors at the main stage</figcaption></figure>
+    <figure class="ev"><img src="assets/img/se-stage.webp" alt="Certificates presented on stage"><figcaption><b>Closing ceremony</b>Certificates presented to participating teams</figcaption></figure>
+  </div>
+  <div class="steps ev-steps">
+    <div><b>01 · Plan</b>Client brief read, stand vendor sourced and the proposal negotiated</div>
+    <div><b>02 · Content</b>Safety film produced in English and Arabic for the stand screen</div>
+    <div><b>03 · Supply</b>Stand, refreshment stations, flyers and branded gifts delivered on time</div>
+    <div><b>04 · Run</b>Crew managed on site, visitors and VIPs hosted for two days</div>
+    <div><b>05 · Close</b>Client appreciation received, photographs and follow up filed</div>
+  </div>
+  <p class="credit">Event management · client service · marketing · Jubail Industrial City, November 2026</p>
+</div></section>
+
 <section id="clients" class="softbg pb"><div class="wrap">
   <div class="head">
-    <div><span class="label">05 · Client and customer record</span><h2>Every request, <em>answered.</em></h2></div>
+    <div><span class="label">06 · Client and customer record</span><h2>Every request, <em>answered.</em></h2></div>
     <p class="lede">The standard was set on an international account and carried into every role since. A request is logged the day it arrives, each reply carries a status, and every complaint is closed with evidence.</p>
   </div>
   <div class="cases">
@@ -427,7 +468,7 @@ table.cv td small{display:block;color:var(--mutedD);font-size:12.5px}
 
 <section id="record" class="dark pb"><div class="wrap">
   <div class="head">
-    <div><span class="label">06 · Career record</span><h2>Seven industries. <em>One standard.</em></h2></div>
+    <div><span class="label">07 · Career record</span><h2>Seven industries. <em>One standard.</em></h2></div>
     <p class="lede">Each move added a discipline the next role used: enterprise software, hospitality service, education sales, fintech compliance, giga project logistics, industrial contracting.</p>
   </div>
   <table class="cv">
@@ -453,7 +494,7 @@ table.cv td small{display:block;color:var(--mutedD);font-size:12.5px}
 
 <section id="voices" class="pb"><div class="wrap">
   <div class="head">
-    <div><span class="label">07 · Recommendations and credentials</span><h2>In the words of <em>colleagues.</em></h2></div>
+    <div><span class="label">08 · Recommendations and credentials</span><h2>In the words of <em>colleagues.</em></h2></div>
     <p class="lede">Published on <a href="https://www.linkedin.com/in/daudmaqsood/details/recommendations/">LinkedIn</a> by the people named.</p>
   </div>
   <div class="quotes">
